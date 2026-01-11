@@ -143,8 +143,14 @@ class MarkdownStyleSheet {
       tableCellsDecoration: const BoxDecoration(),
       blockquotePadding: const EdgeInsets.all(8.0),
       blockquoteDecoration: BoxDecoration(
-        color: Colors.red.shade100,
+        border: const Border(
+          left: BorderSide(
+            color: Colors.grey,
+            width: 5,
+          ),
+        ),
         borderRadius: BorderRadius.circular(2.0),
+        color: Colors.grey[200],
       ),
       codeblockPadding: const EdgeInsets.all(8.0),
       codeblockDecoration: BoxDecoration(
