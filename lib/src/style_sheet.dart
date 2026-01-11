@@ -146,11 +146,12 @@ class MarkdownStyleSheet {
         border: const Border(
           left: BorderSide(
             color: Colors.grey,
-            width: 5,
+            width: 3,
           ),
         ),
         borderRadius: BorderRadius.circular(2.0),
         color: Colors.grey[200],
+        padding: const EdgeInsets.symmetric(horizontal: 8.0)
       ),
       codeblockPadding: const EdgeInsets.all(8.0),
       codeblockDecoration: BoxDecoration(
